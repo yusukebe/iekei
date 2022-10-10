@@ -1,6 +1,6 @@
 {
   "name": "@iekei/yoshimura",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,6 +13,5 @@
     "dist"
   ],
   "author": "Yusuke Wada <yusuke@kamawada.com> (https://github.com/yusukebe)",
-  "license": "MIT",
-  "devDependencies": {}
+  "license": "MIT"
 }
