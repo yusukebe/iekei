@@ -13,5 +13,9 @@
     "dist"
   ],
   "author": "Yusuke Wada <yusuke@kamawada.com> (https://github.com/yusukebe)",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
 }
