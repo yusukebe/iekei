@@ -1,0 +1,21 @@
+{
+  "name": "@iekei/takasago",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf dist && tsc",
+    "prerelease": "yarn build && yarn test",
+    "release": "yarn publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Yusuke Wada <yusuke@kamawada.com> (https://github.com/yusukebe)",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}
