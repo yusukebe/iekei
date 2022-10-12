@@ -1,3 +1,5 @@
 export const yoshimura = () => {
-  return '吉村家'
+  return {
+    name: '吉村家',
+  }
 }
