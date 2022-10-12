@@ -1,3 +1,5 @@
 export const takasago = () => {
-  return 'たかさご家'
+  return {
+    name: 'たかさご家',
+  }
 }
