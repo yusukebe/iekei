@@ -3,11 +3,11 @@ on:
   push:
     branches: [main]
     paths:
-      - './packages/yoshimura/**'
+      - 'packages/yoshimura/**'
   pull_request:
     branches: ['*']
     paths:
-      - './packages/yoshimura/**'
+      - 'packages/yoshimura/**'
 
 jobs:
   ci:
